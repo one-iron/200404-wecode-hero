@@ -1,0 +1,60 @@
+#location {
+    left: 400px;
+}
+
+
+#bg {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background-image: url("bg.png");
+    margin: 0 auto;
+}
+
+
+.front {
+    position: absolute;
+    width: 35px;
+    height: 54px;
+    bottom: 0;
+    margin-left: -17px;
+    background-image: url("hero/hero.png");
+}
+
+.left {
+    position: absolute;
+    width: 35px;
+    height: 54px;
+    bottom: 0;
+    margin-left: -17px;
+    background-image: url("hero/hero.png");
+    background-position: -70px 0;
+}
+
+.right {
+    position: absolute;
+    width: 35px;
+    height: 54px;
+    bottom: 0;
+    margin-left: -17px;
+    background-image: url("hero/hero.png");
+    background-position: -105px 0;
+}
+
+.ghostFront {
+    position: absolute;
+    width: 45px;
+    height: 54px;
+    background-image: url("ghost/ghost.png");
+    background-position: 0 0;
+    left: 198px;
+    top: 0px;
+}
+
+.ghostDie {
+    position: absolute;
+    width: 45px;
+    height: 54px;
+    background-image: url("ghost/ghost.png");
+    background-position: -45px 0;
+}
