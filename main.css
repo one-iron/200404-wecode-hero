@@ -1,7 +1,20 @@
-#location {
-    left: 400px;
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 800px;
 }
 
+button{
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    margin: 20px auto;
+}
+
+#location {
+    left: 383px;
+}
 
 #bg {
     position: relative;
@@ -11,14 +24,21 @@
     margin: 0 auto;
 }
 
-
 .front {
     position: absolute;
     width: 35px;
     height: 54px;
     bottom: 0;
-    margin-left: -17px;
     background-image: url("hero/hero.png");
+}
+
+.back {
+    position: absolute;
+    width: 35px;
+    height: 54px;
+    bottom: 0;
+    background-image: url("hero/hero.png");
+    background-position: -35px 0;
 }
 
 .left {
@@ -26,7 +46,6 @@
     width: 35px;
     height: 54px;
     bottom: 0;
-    margin-left: -17px;
     background-image: url("hero/hero.png");
     background-position: -70px 0;
 }
@@ -36,7 +55,6 @@
     width: 35px;
     height: 54px;
     bottom: 0;
-    margin-left: -17px;
     background-image: url("hero/hero.png");
     background-position: -105px 0;
 }
